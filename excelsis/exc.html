@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+ <head>
+    <title>Excelsis Enterprises</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="C:\Users\saris\Documents\HTML CSS ess\excelsis\exc.css">
+ </head>
+
+    <body>
+
+        <header class="header">
+          <div class="container">
+
+            <!-- logo area  -->
+            <div class="logo">
+               
+                <p>Excelsis Enterprises</p>
+                <img class="ham" onclick="showNav()"
+                    src="https://cdn3.iconfinder.com/data/icons/web-ui-3/128/Menu-2-256.png">
+            </div>
+
+            <!-- nav area  -->
+
+            <nav class="nav" id="nav">
+                <ul class="nav-parent">
+                    <li class="nav-link">Home</li>
+                    <li class="nav-link">Works</li>
+                    <li class="nav-link">About</li>
+                    <li class="nav-link">Contact</li>
+                </ul>
+            </nav>
+          </div>
+        </header>
+
+     <section class="banner">
+      <div class="banner_details">
+        <div class="padd">
+            <h1 class="banner_title">Excelsis Enterprises</h1>
+            <ul class="banner_desc">
+             <li>  ALL Kinds of fabrication works like:</li>   
+             <li>  Truss, canopy, pargola, Railing, SS and MS works</li>
+             <li>  Gates, Grills, Sheds, Structured Buildings, Sport Courts and much more </li>
+            </ul>
+
+        </div>
+        
+      </div>
+     </section>
+    
+      <section class="works">
+      <div class="container works_container">
+      <h1 class="section title">Our Works</h1>
+       <br>
+        <div class="works_parent">
+        <div class="work">
+            <div class="work_img">
+                <img src="C:\Users\saris\Documents\HTML CSS ess\excelsis\building.jpg" alt="">
+            </div>
+            <div class="work_detail">
+                <div class="padd">
+                    <h1>At Bengaluru</h1>
+                    <p>Building Work</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="work">
+            <div class="work_img">
+                <img src="C:\Users\saris\Documents\HTML CSS ess\excelsis\top work.jpg" alt="">
+
+            </div>
+            <div class="work_detail">
+                <div class="padd">
+                    <h2>Metro Station</h2>
+                    <p>Bengaluru</p>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="work">
+            <div class="work_img">
+                <img src="C:\Users\saris\Documents\HTML CSS ess\excelsis\sheet roof truss.jpg" alt="">
+            </div>
+            <div class="work_detail">
+                <div class="padd">
+                    <h2>Roof Sheeting and Truss</h2>
+                   
+                    <p>Karnataka</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="work">
+            <div class="work_img">
+                <img src="C:\Users\saris\Documents\HTML CSS ess\excelsis\truss.jpg" alt="">
+
+            </div>
+            <div class="work_detail">
+                <div class="padd">
+                    <h2>Truss work</h2>
+                    
+                    <p>Shed fabrication</p>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="work">
+            <div class="work_img">
+                <img src="C:\Users\saris\Documents\HTML CSS ess\excelsis\hollow.jpg" alt="">
+
+            </div>
+            <div class="work_detail">
+                <div class="padd">
+                    <h2>Truss work</h2>
+                   <br>
+                    
+                    <p>Karnataka</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="work">
+            <div class="work_img">
+                <img src="C:\Users\saris\Documents\HTML CSS ess\excelsis\work.jpg" alt="">
+
+            </div>
+            <div class="work_detail">
+                <div class="padd">
+                    <h2>Truss</h2>
+                   
+                    <p>Fabrication</p>
+
+                </div>
+
+            </div>
+        </div>
+
+      </div>
+      </div>
+     </section>
+      <section class="about">
+       <div class="about about_container">
+        <h1 class="section_title">About Us</h1>
+         <div class="about_parent">
+            <div class="about_img">
+             <img src="C:\Users\saris\Documents\HTML CSS ess\excelsis\draw.jpeg" alt="">
+            </div>
+            <div class="about_content">
+                <ul class="about_desc">
+                    <br>
+                    <li>  Mr.Thankachan V T</li>   
+                    <li>  With over 30 years of work experience in the Industry</li>
+                    <li>  Worked with top companies like Manyata Tech Park, John Devlopers, Ford,
+                        <br> Alluminium Innovations, Bagmane Techpark, Shantineketan Mall and more.</li>
+                   </ul>
+            </div>
+           </div>
+         </div>
+      </section>
+
+      <script>
+
+
+        var isNavVisible = false;
+
+        function showNav() {
+            if (isNavVisible === false) {
+                document.getElementById('nav').style.height = "200px";
+                isNavVisible = true;
+            }
+            else {
+                document.getElementById('nav').style.height = "0px";
+                isNavVisible = false;
+            }
+
+        }
+
+    </script>
+    </body>
+</html>
